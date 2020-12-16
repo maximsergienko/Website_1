@@ -1,0 +1,126 @@
+body {
+    background-color: #414451;
+}
+nav {
+    width: calc(100% - 50px);
+    position: relative;
+    padding: 25px 25px 10px 25px;
+    position: fixed;
+    background-color: rgb(0,0,0,0.25);
+    z-index: 9;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+.burger {
+    display: none;
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+
+.content1 {
+    width: 350px;
+    height: 80px;
+    background-image: url(../images/bullet.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.content2 {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    padding: 0px 25px 0px 0px;
+}
+.content21 {
+    font-family: Tahoma;
+    color: #ffffff;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+}
+.gun {
+    margin: 50px;
+    width: 300px;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+    display: inline-block;
+
+
+   
+}
+.gun:hover {
+    box-shadow: 0px 0px 40px #a2a2a2;
+    transform: scale(1.04);
+}
+.gun1 {
+    margin: 50px;
+    width: 640px;
+    border-radius: 25px;
+    vertical-align: top;
+    display: inline-block;
+
+
+
+}
+.gunpic {
+   
+    height: 500px;
+    background-color: grey;
+    border-radius: 25px 25px 0 0;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gunpic1 {
+
+    height: 400px;
+    width: 240px;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 25px 25px 25px 25px;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.guntitle {
+
+font-size: 28px;
+margin: 10px;
+margin-top: -10px;
+}
+.guninfo {
+    font-family: Tahoma;
+    color: #f2f2f2;
+    background-color: #828282;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.gundesc {
+    font-size: 16px;
+}
+.detaileddesc {
+    font-size: 16px;
+    color: #FFFFFF;
+    width: calc(100% - 750px);
+    display: inline-block;
+    
+}
+.content3 {
+    position: relative;
+    left: calc(50% - 200px);
+    top: 40px;
+}
+.content31 {
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/facebook.png);
+}
